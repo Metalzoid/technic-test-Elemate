@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import WeatherComp from '../components/WeatherComp.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
+  <main class="container">
+    <WeatherComp />
   </main>
 </template>

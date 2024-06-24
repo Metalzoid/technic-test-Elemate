@@ -14,7 +14,9 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "bootstrap-vue-next": "^0.22.1",
     "vue": "^3.4.29",
+    "vue-resource": "^1.5.3",
     "vue-router": "^4.3.3"
   },
   "devDependencies": {
