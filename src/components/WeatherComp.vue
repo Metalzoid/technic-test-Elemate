@@ -11,7 +11,7 @@ export default {
   methods: {
     fetchData(query) {
       const fetch = useFetch(
-        `http://api.weatherstack.com/current?access_key=3e57ca397764c5d6a2af5fab0eaaf971&query=${query}`
+        `http://api.weatherstack.com/current?access_key=${import.meta.env.VITE_WEATHER_API_KEY}&query=${query}`
       )
 
       this.data = fetch.data
